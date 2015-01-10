@@ -1,0 +1,405 @@
+@font-face {
+    font-family: 'helvetica-neue-medium';
+    src: url('../fonts/helvetica-neue-medium.eot');
+    src: url('../fonts/helvetica-neue-medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helvetica-neue-medium.woff') format('woff'),
+         url('../fonts/helvetica-neue-medium.ttf') format('truetype'),
+         url('../fonts/helvetica-neue-medium.svg#reditum_personal_use_onlyRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KellySlab-Regular';
+    src: url('../fonts/KellySlab-Regular.eot');
+    src: url('../fonts/KellySlab-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/KellySlab-Regular.woff') format('woff'),
+         url('../fonts/KellySlab-Regular.ttf') format('truetype'),
+         url('../fonts/KellySlab-Regular.svg#reditum_personal_use_onlyRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+body {
+background-image:url(../images/fundo-body.jpg);
+font-family: 'helvetica-neue-medium' !important;
+}
+
+.row {
+background-image:url(../images/fundo-corpo.png);
+padding-top: 15px;
+}
+
+.large-7.columns.interativo {
+margin: 0px;
+padding: 0px;
+}
+.large-8.columns.login {
+padding-left: 10%;
+padding-right: 0px;
+}
+
+img.log {
+padding-top: 12px;
+}
+
+.large-12.columns.busca {
+margin-top: -10px;
+}
+
+.carrinho h5 {
+text-align: center;
+background-color: #831501;
+width: 135px;
+float: right;
+color: #ffffff;
+}
+
+.menu {
+background-image:url(../images/fundo-menu.png);
+background-repeat: no-repeat;
+height: 75px;
+padding-left: 120px;
+padding-top: 30px;
+background-position: 87% 100%;
+}
+
+.menu ul {
+display: -webkit-inline-box;
+}
+
+.menu li {
+list-style: none;
+padding-right: 36px;
+color: #ffffff;
+}
+
+.menu li:hover {
+text-decoration: underline;
+}
+
+.large-12.columns.banner {
+margin-bottom: -55px;
+margin-top: 15px;
+}
+
+/*meio*/
+
+.novos-titulo h1 {
+display: inline-block;
+margin-top: 65px;
+color: #ffffff;
+font-family: 'KellySlab-Regular';
+font-size:43px;
+}
+
+.large-3.columns.categorias {
+background-color: #831501;
+margin-left: 15px;
+margin-right: -15px;
+padding-bottom: 15px;
+
+}
+.categorias h2, h5 {
+color: #ffffff;
+}
+
+.categorias h2 {
+font-family: 'KellySlab-Regular';
+font-size:26px
+}
+
+.categorias h5 {
+font-family: 'helvetica-neue-medium';
+font-size:14px
+}
+
+
+
+.categorias img {
+float: right;
+}
+
+.novos-titulo img {
+float: right;
+}
+
+
+
+.large-12.columns.novos-titulo {
+margin-bottom: -80px;
+}
+
+.produtos {
+margin-bottom: 15px;
+}
+  
+.destaques-titulo h1 {
+display: inline-block;
+color: #ffffff;
+font-family: 'KellySlab-Regular';
+font-size:43px;
+}
+
+.destaques-titulo img {
+float: right;
+}
+
+.large-12.columns.destaques-titulo {
+margin-top: 15px;
+margin-bottom: -15px;
+}
+
+.large-12.columns.produtos-destaques {
+padding: 0px;
+}
+
+.face img {
+margin-top: -18px;
+}
+/*fim meio*/
+
+/*rodapé*/
+.tel-int h3,.tel-int h4 {
+padding: 10px 0px 0px 0px;
+color: #ffffff;
+}
+.tel {
+background-color: #248dc1;
+padding: 0px;
+margin: 0px 0px 0px 15px;
+width: 97%;
+}
+
+.duvidas h4 {
+color: #ffffff;
+font-size: 20px;
+font-family: 'helvetica-neue-medium' !important;
+margin-top: 15px;
+}
+
+.duvidas a {
+font-size: 14px;
+color: #ffffff;
+margin-left: 15px;
+font-family: 'helvetica-neue-medium' !important;
+}
+
+.duvidas a:hover {
+text-decoration: underline;
+}
+
+.ahri img {
+position: absolute;
+top: 69px;
+}
+
+.large-5.columns.pagseguro {
+margin-left: 33.3333%;
+}
+
+.pagseguro h4 {
+color: #ffffff;
+font-size: 20px;
+font-family: 'helvetica-neue-medium' !important;
+margin-top: 15px;
+}
+
+.texto-rodape p {
+background-image:url(../images/fundo-rodape.png);
+margin-left:15px;
+margin-right:15px;
+color: #ffffff;
+padding: 10px 80px 10px 80px;
+text-align: center;
+font-family: 'helvetica-neue-medium' !important;
+font-size: 14px
+}
+
+.desenvolvido {
+text-align: right;
+color: #ffffff;
+font-size: 14px;
+}
+
+.logo-bycreator {
+text-align: right;
+}
+
+/*fim rodapé*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.login img {
+max-width: 47%;
+}
+.menu {
+background-size: 100%;
+height: 75px;
+padding-left: 65px;
+padding-top: 26px;
+width: 125%;
+}
+
+.tel-int h3 {
+font-size: 23px;
+}
+
+.large-3.medium-3.columns.duvidas {
+width:30%;
+}
+
+.large-5.columns.pagseguro {
+margin-left: 28.3333%;
+}
+
+.texto-rodape p {
+padding: 10px 25px 10px 25px;
+}
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.large-4.medium-4.small-6.columns.carrinho {
+float: right;
+}
+
+.carrinho img {
+float: right;
+}
+
+.large-12.columns.busca {
+margin-top: 10px;
+}
+
+.large-12.columns.banner {
+margin-bottom: 0px;
+}
+
+.menu {
+background-size: 100%;
+height: 75px;
+padding-left: 35px;
+padding-top: 32px;
+width: 100%;
+}
+
+.menu li {
+padding-right: 30px;
+}
+
+.large-3.columns.categorias {
+width: 93.6%;
+}
+
+.tel {
+width: 94%;
+}
+
+.large-4.medium-4.columns.ahri {
+display: none;
+}
+
+.large-5.columns.pagseguro {
+padding-left: 15px;
+margin-left:0px
+}
+
+.pagseguro img {
+width: 100%
+}
+
+.texto-rodape p {
+padding: 10px 10px 10px 10px;
+margin-top:15px ;
+}
+
+.desenvolvido {
+text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 479px) {
+
+.large-4.medium-4.small-6.columns.carrinho {
+float: right;
+}
+
+.carrinho img {
+float: right;
+}
+
+.large-12.columns.busca {
+margin-top: 10px;
+}
+
+.large-12.columns.banner {
+margin-bottom: 0px;
+}
+
+.menu {
+background-size: 100%;
+height: 75px;
+padding-left: 35px;
+padding-top: 32px;
+width: 100%;
+}
+
+.menu li {
+padding-right: 30px;
+}
+
+.large-3.columns.categorias {
+width: 90.5%;
+}
+
+.tel {
+width: 94%;
+}
+
+.large-4.medium-4.columns.ahri {
+display: none;
+}
+
+.large-5.columns.pagseguro {
+padding-left: 15px;
+margin-left:0px
+}
+
+.pagseguro img {
+width: 100%
+}
+
+.texto-rodape p {
+padding: 10px 10px 10px 10px;
+margin-top:15px ;
+}
+
+.desenvolvido {
+text-align: center;
+}
+
+.tel-int {
+padding: 0px;
+}
+
+.large-7.medium-7.small-8.columns.tel-int {
+padding-left: 5px;
+}
+
+.tel-int h4 {
+font-size: 15px;
+}
+
+.tel-int h3 {
+padding-left: 5px;
+}
+
+.large-12.columns.menu {
+display: none;
+}
+
+}
