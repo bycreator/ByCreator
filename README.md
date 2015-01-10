@@ -3,8 +3,8 @@ Agency
 
 # Dsigner ByCreator
 
-Site: http://www.dsignerbycreator.com.br
-Facebook: https://www.facebook.com/bycreator.dsigner
+  - Site: http://www.dsignerbycreator.com.br
+  - Facebook: https://www.facebook.com/bycreator.dsigner
 
 # Team
 
